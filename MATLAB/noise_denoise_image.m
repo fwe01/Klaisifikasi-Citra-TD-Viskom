@@ -1,7 +1,7 @@
 % Define paths for input and output directories
 input_directory = '../Channel Decomposed/';
-output_noised_directory = '../Noised/';
-output_denoised_directory = '../Denoised/';
+output_noised_directory = '../Noised Decomposed/';
+output_denoised_directory = '../Noised Denoised Decomposed/';
 
 % Get a list of all files in the input directory
 files = dir(fullfile(input_directory, '*.JPG'));
