@@ -152,9 +152,6 @@ def process_files(split_files):
 
 if __name__ == "__main__":
 
-    GetROI('TRAIN095523.JPG')
-    exit()
-
     # Number of processes
     num_processes = 16 
 
